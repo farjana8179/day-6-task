@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Songs Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: #fff;
+        }
+
+        h1 {
+            background: #0f172a;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 40px;
+            letter-spacing: 2px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            margin: 20px 0;
+            text-align: center;
+            font-size: 24px;
+            color: #e0f2fe;
+        }
+
+        .search-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .search-box {
+            width: 300px;
+            height: 40px;
+            font-size: 16px;
+            padding: 0 15px;
+            border: none;
+            border-radius: 25px;
+            outline: none;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .search-button {
+            padding: 10px 16px;
+            margin-left: 10px;
+            background-color: #0ea5e9;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-button:hover {
+            background-color: #0284c7;
+        }
+
+        table {
+            margin: 40px auto;
+            border-spacing: 30px;
+        }
+
+        td {
+            background-color: #0f172a;
+            padding: 15px;
+            border-radius: 15px;
+            width: 220px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        td:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+        }
+
+        td a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        img {
+            width: 200px;
+            height: 300px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0f172a;
+            color: #94a3b8;
+            margin-top: 50px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            table, tr, td {
+                display: block;
+                width: 90%;
+                margin: 0 auto 30px;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Songs Gallery</h1>
+    <h2>Telugu Songs Download</h2>
+
+    <div class="search-container">
+        <input type="text" class="search-box" placeholder="Search for your favorite song...">
+        <button class="search-button">🎵 Search</button>
+    </div>
+
+    <table>
+        <tr>
+            <td>
+                <a href="parugu.html">
+                    <img src="parugu.jpg" alt="Parugu">
+                    <h2>Parugu</h2>
+                </a>
+            </td>
+            <td>
+                <a href="colour photo.html">
+                    <img src="colour photo.jpg" alt="Colour Photo">
+                    <h2>Colour Photo</h2>
+                </a>
+            </td>
+            <td>
+                <a href="DJ.html">
+                    <img src="DJ.jpg" alt="DJ">
+                    <h2>DJ</h2>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="darling.html">
+                    <img src="darling.jpg" alt="Darling">
+                    <h2>Darling</h2>
+                </a>
+            </td>
+            <td>
+                <a href="Mirchi.html">
+                    <img src="Mirchi.jpg" alt="Mirchi">
+                    <h2>Mirchi</h2>
+                </a>
+            </td>
+            <td>
+                <a href="Pushpa.html">
+                    <img src="Pushpa.jpg" alt="Pushpa">
+                    <h2>Pushpa</h2>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="pokiri.html">
+                    <img src="pokiri.jpg" alt="Pokiri">
+                    <h2>Pokiri</h2>
+                </a>
+            </td>
+            <td>
+                <a href="badesha.html">
+                    <img src="badesha.jpg" alt="Badesha">
+                    <h2>Badesha</h2>
+                </a>
+            </td>
+            <td>
+                <a href="journey.html">
+                    <img src="journey.jpg" alt="Journey">
+                    <h2>Journey</h2>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <p>&copy; 2025 My Songs Gallery. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
